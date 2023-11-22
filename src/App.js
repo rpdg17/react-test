@@ -7,7 +7,7 @@ function App() {
   const [restaurantLists, setRestaurantLists] = useState([]);
 
   useEffect(() => {
-    fetch("https://nextjs-orpin-omega-98.vercel.app/api/restaurants")
+    fetch("/api/restaurants")
       .then(res => res.json())
       .then(data => groupRestaurantsByState(data))
       .catch(error => console.error("Error: ", error));
