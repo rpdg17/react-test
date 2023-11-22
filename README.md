@@ -2,7 +2,7 @@
 
 ## Live Application URL
 
-The Application is deployed in https://aditya-sridhar.github.io/simple-reactjs-app
+The Application is deployed in https://restaurant-list-ecru.vercel.app/
 
 Click on the link to see the application
 
